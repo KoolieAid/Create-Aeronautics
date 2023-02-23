@@ -82,7 +82,7 @@ dependencies {
 	modImplementation("com.tterrag.registrate:Registrate:${project.registrate_version}")
 	modImplementation("com.jozufozu.flywheel:flywheel-fabric-${flywheel_minecraft_version}:${project.flywheel_version}")
 	modImplementation("com.jamieswhiteshirt:reach-entity-attributes:${project.reach_entity_attributes_version}")
-	modImplementation("dev.cafeteria:fake-player-api:${project.fake_player_api_version}")
+	modImplementation("dev.cafeteria:fake-player-api:0.2.0")
 	modImplementation("io.github.tropheusj:milk-lib:${project.milk_lib_version}")
 	implementation("com.google.code.findbugs:jsr305:${project.jsr305_version}")
 
