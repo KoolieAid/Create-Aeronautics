@@ -32,6 +32,11 @@ repositories {
 	maven { url = "https://jitpack.io/" } // Mixin Extras, fabric ASM
 	maven { url = "https://dvs1.progwml6.com/files/maven/" } // JEI
 	maven { url = "https://maven.parchmentmc.org" } // Parchment mappings
+	maven { url = 'https://maven.cafeteria.dev'
+        content {
+            includeGroup 'dev.cafeteria'
+        }
+    } // Fake Player API
 }
 
 dependencies {
